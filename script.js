@@ -59,7 +59,7 @@ var productsArr;
 async function allProducts() {
 
 try {
-let allProductsUrl = 'http://makeup-api.herokuapp.com/api/v1/products.json';
+let allProductsUrl = 'https://makeup-api.herokuapp.com/api/v1/products.json';
 
 let result = await fetch(allProductsUrl);
 let data = await result.json();
