@@ -1,0 +1,92 @@
+/* ----------styles for header---------- */
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 6rem 2rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #ccc;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+#header > h1 {
+    letter-spacing: 2px;
+}
+
+#header > input {
+    width: 20vw;
+}
+
+.allProductText {
+    margin-left: 6rem;
+}
+
+/* ----------product card styles--------- */
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #ccc;
+}
+
+.product-card > img {
+    width: 20vw;
+    height: 46vh;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* object-fit : cover; */
+}
+
+.product-info {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    width: 60vw;
+    margin-bottom: 1rem;
+}
+
+.product-info > h4 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.product-info > a {
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1rem;
+}
+
+/* ---------styles for product list-------- */
+
+.product-list {
+    margin: 2rem 6rem 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* -------styles for pagination area------ */
+
+.pagination-body {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 28rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #ccc;
+    width: 30vw;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.pagination-body > button {
+    border-radius: 50%;
+}
